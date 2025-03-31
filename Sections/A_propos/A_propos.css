@@ -34,7 +34,7 @@ h1 {
     background-color: lightslategray;
 }
 
-.A_propos-container {
+#A_propos-container {
     margin-top: 20px;
     padding: 20px;
     background: #2a2a2a;
