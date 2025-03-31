@@ -30,6 +30,12 @@ function Competence(){
                         </div>
                     </div>
                     <div class="skill">
+                        <p>C</p>
+                        <div class="progress-container">                        
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
                         <p>XML</p>
                         <div class="progress-container">
                             <div class="progress-bar"></div>
@@ -128,6 +134,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Javascript", percent: 15 },
         { name: "Markdown", percent: 50 },
         { name: "Bash", percent: 10 },
+        { name: 'C', percent: 10},
         { name: "XML", percent: 15 },
         { name: "JSON", percent: 75 },
         { name: "PHP", percent: 30 },
