@@ -1,0 +1,80 @@
+section#A_propos {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#A_propos img {
+    border-radius: 250px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid #2a2a2a;
+}
+
+.A_propos-buttons button {
+    background-color: #2a2a2a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.A_propos-buttons button:hover {
+    background-color: lightslategray;
+}
+
+.A_propos-container {
+    margin-top: 20px;
+    padding: 20px;
+    background: #2a2a2a;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.card-A_propos {
+    padding: 10px;
+}
+
+.card-A_propos p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: white;
+    text-align: left;
+}
+
+.card-A_propos b {
+    font-size: 1.1em;
+    color: #f1c40f;
+}
+
+#langue {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#langue > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#langue svg {
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+}
+
+ 
