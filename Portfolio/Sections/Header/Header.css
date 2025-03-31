@@ -1,0 +1,117 @@
+/*Header*/
+body header {
+    position: relative;
+    color: #2c3e50;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+body header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2c3e50;
+    z-index: -1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav h1 {
+    margin: 0;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+}
+    
+nav ul li {
+    margin: 0 10px;
+    opacity: 1;
+    position: relative;
+}
+    
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    padding: 5px 0;
+    display: inline-block;
+}
+
+nav ul li a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease-in-out;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.burger-menu {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .burger-menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #2c3e50;
+        padding: 10px 0;
+    }
+
+    nav ul.active {
+        display: flex;
+        transform: translateY(0);
+    }
+
+    nav ul:not(.active) {
+        transform: translateY(-100%);
+    }
+
+    nav ul li {
+        width: 100%;
+        margin: 0;
+        padding: 10px 15px;
+    }
+
+    nav ul li a {
+        display: inline-block;
+        width: auto;
+    }
+}
