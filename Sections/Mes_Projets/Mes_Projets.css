@@ -129,7 +129,7 @@
 }
 
 .card-content h3 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #f1f1f1;
     margin-bottom: 10px;
     word-wrap: break-word;
@@ -175,7 +175,7 @@
     }
 
     .card-content h3 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .card-content b,

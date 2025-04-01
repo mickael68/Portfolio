@@ -7,11 +7,12 @@ html {
 }
 
 body {
-    background-color: black;
+    background: radial-gradient(circle, #2c3e50, #121212); /* Bleu-gris au centre vers noir */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     padding-top: 60px;
+    height: 100vh; /* Prend toute la hauteur de l'écran */
 }
 
 body main {
