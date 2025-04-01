@@ -181,6 +181,10 @@
     .card-content b,
     .card-content p {
         margin-right: 0;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        white-space: normal;
+        text-align: left;
     }
 
     .title-projets {

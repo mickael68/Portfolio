@@ -61,8 +61,6 @@
     justify-content: center;
 }
 
-
-
 .progress-container {
     width: 100%;
     background-color: #ddd;
@@ -88,7 +86,6 @@
 }
 
 .skill:hover p {
-    opacity: 0;
 }
 
 .skill:hover .progress-container {
