@@ -3,10 +3,8 @@ function Competence(){
     div.innerHTML = `
         <h1>Competences</h1>
             <div class="competence-container">
-                <div class="card-competence">
-                    <h3>Programmation</h3>
                     <div class="skill">
-                        <p>
+                        <p class="skill-icon">
                             <svg width="64px" height="64px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -16,6 +14,12 @@ function Competence(){
                                     <path d="M9.5 17.5L8.5 8H24L23.5 11H11.5L12 14.5H23L22 24L16 26L10 24L9.5 19H12.5L13 21.5L16 22.5L19 21.5L19.5 17.5H9.5Z" fill="white"></path> 
                                 </g>
                             </svg>
+                        </p>
+                        <span class="skill-name">HTML</span>
+                        <p class="skill-level">Avancé</p>
+                    </div>
+                    <div class="skill">
+                        <p class="skill-icon">
                             <svg width="64px" height="64px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -26,12 +30,11 @@ function Competence(){
                                 </g>
                             </svg>
                         </p>
-                        <div class="progress-container">
-                            <div class="progress-bar"></div>
-                        </div>
+                        <span class="skill-name">CSS/SCSS</span>
+                        <p class="skill-level">Avancé</p>
                     </div>
                     <div class="skill">
-                        <p>
+                        <p class="skill-icon">
                             <svg width="64px" height="64px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -42,12 +45,11 @@ function Competence(){
                                 </g>
                             </svg>
                         </p>
-                        <div class="progress-container">
-                            <div class="progress-bar"></div>
-                        </div>
+                        <span class="skill-name">Javascript</span>
+                        <p class="skill-level">Débutant</p>
                     </div>
                     <div class="skill">
-                        <p>
+                        <p class="skill-icon">
                             <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -56,12 +58,11 @@ function Competence(){
                                 </g>
                             </svg>
                         </p>
-                        <div class="progress-container">
-                            <div class="progress-bar"></div>
-                        </div>
+                        <span class="skill-name">Markdown</span>
+                        <p class="skill-level">Intermédiaire</p>
                     </div>
                     <div class="skill">
-                        <p>
+                        <p class="skill-icon">
                             <svg width="64px" height="64px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="#000000">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -70,12 +71,11 @@ function Competence(){
                                 </g>
                             </svg>
                         </p>
-                        <div class="progress-container">                        
-                            <div class="progress-bar"></div>
-                        </div>
+                        <span class="skill-name">Bash</span>
+                        <p class="skill-level">Débutant</p>
                     </div>
                     <div class="skill">
-                        <p>
+                        <p class="skill-icon">
                             <svg fill="#000000" width="64px" height="64px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -85,12 +85,11 @@ function Competence(){
                                 </g>
                             </svg>
                         </p>
-                        <div class="progress-container">                        
-                            <div class="progress-bar"></div>
-                        </div>
+                        <span class="skill-name">C</span>
+                        <p class="skill-level">Débutant</p>
                     </div>
                     <div class="skill">
-                        <p>
+                        <p class="skill-icon">
                             <svg height="64px" width="64px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 56 56" xml:space="preserve" fill="#000000">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -112,12 +111,11 @@ function Competence(){
                                 </g>
                             </svg>
                         </p>
-                        <div class="progress-container">
-                            <div class="progress-bar"></div>
-                        </div>
+                        <span class="skill-name">XML</span>
+                        <p class="skill-level">Intermédiaire</p>
                     </div>
                     <div class="skill">
-                        <p>
+                        <p class="skill-icon">
                             <svg width="64px" height="64px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#000000">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -128,12 +126,11 @@ function Competence(){
                                 </g>
                             </svg>
                         </p>
-                        <div class="progress-container">
-                            <div class="progress-bar"></div>
-                        </div>
+                        <span class="skill-name">JSON</span>
+                        <p class="skill-level">Intermédiaire</p>
                     </div>
                     <div class="skill">
-                        <p>
+                        <p class="skill-icon">
                             <svg width="64px" height="64px" viewBox="0 -61 256 256" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" fill="#000000">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -145,12 +142,11 @@ function Competence(){
                                 </g>
                             </svg>
                         </p>
-                        <div class="progress-container">
-                            <div class="progress-bar"></div>
-                        </div>
+                        <span class="skill-name">PHP</span>
+                        <p class="skill-level">Débutant</p>
                     </div>
                     <div class="skill">
-                        <p>
+                        <p class="skill-icon">
                             <svg width="64px" height="64px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#000000">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -163,15 +159,11 @@ function Competence(){
                                 </g>
                             </svg>
                         </p>
-                        <div class="progress-container">
-                            <div class="progress-bar"></div>
-                        </div>
+                        <span class="skill-name">SQL</span>
+                        <p class="skill-level">Débutant</p>
                     </div>
-                </div>
-                <div class="card-competence">
-                    <h3>Bases de données</h3>
                     <div class="skill">
-                        <p>
+                        <p class="skill-icon">
                             <svg width="64px" height="64px" viewBox="-18.458 -22.75 191.151 191.151" xmlns="http://www.w3.org/2000/svg" fill="#000000">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -185,12 +177,11 @@ function Competence(){
                                 </g>
                             </svg>
                         </p>
-                        <div class="progress-container">
-                            <div class="progress-bar"></div>
-                        </div>
+                        <span class="skill-name">MySQL</span>
+                        <p class="skill-level">Débutant</p>
                     </div>
                     <div class="skill">
-                        <p>
+                        <p class="skill-icon">
                             <svg fill="#000000" width="64px" height="64px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -200,15 +191,11 @@ function Competence(){
                                 </g>
                             </svg>
                         </p>
-                        <div class="progress-container">
-                            <div class="progress-bar"></div>
-                        </div>
+                        <span class="skill-name">MariaDB</span>
+                        <p class="skill-level">Débutant</p>
                     </div>
-                </div>
-                <div class="card-competence">
-                    <h3>Frameworks</h3>
                     <div class="skill">
-                        <p>
+                        <p class="skill-icon">
                             <svg fill="#000000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="64px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                                 <g id="SVGRepo_iconCarrier"> 
@@ -218,12 +205,11 @@ function Competence(){
                                 </g>
                             </svg>
                         </p>
-                        <div class="progress-container">
-                            <div class="progress-bar"></div>
-                        </div>
+                        <span class="skill-name">Symfony</span>
+                        <p class="skill-level">Débutant</p>
                     </div>
                     <div class="skill">
-                        <p>
+                        <p class="skill-icon">
                             <svg width="64px" height="64px" viewBox="-23.5 0 303 303" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" fill="#000000">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -232,12 +218,11 @@ function Competence(){
                                 </g>
                             </svg>
                         </p>
-                        <div class="progress-container">
-                            <div class="progress-bar"></div>
-                        </div>
+                        <span class="skill-name">Magento 2</span>
+                        <p class="skill-level">Débutant</p>
                     </div>
                     <div class="skill">
-                        <p>
+                        <p class="skill-icon">
                             <svg width="64px" height="64px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -246,15 +231,11 @@ function Competence(){
                                 </g>
                             </svg>
                         </p>
-                        <div class="progress-container">
-                            <div class="progress-bar"></div>
-                        </div>
+                        <span class="skill-name">Scrum</span>
+                        <p class="skill-level">Avancé</p>
                     </div>
-                </div>
-                <div class="card-competence">
-                    <h3>Divers</h3>
                     <div class="skill">
-                        <p>
+                        <p class="skill-icon">
                             <svg width="64px" height="64px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" fill="#000000">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -276,22 +257,36 @@ function Competence(){
                                     </g> 
                                 </g>
                             </svg>
-                            <svg width="64px" height="64px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
-                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        </p>
+                        <span class="skill-name">Jira</span>
+                        <p class="skill-level">Avancé</p>
+                    </div>
+                    <div class="skill">
+                        <p class="skill-icon">
+                            <svg width="64px" height="64px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                                 <g id="SVGRepo_iconCarrier">
                                     <defs>
-                                        <linearGradient id="a" x1="28.607" y1="-60.825" x2="11.085" y2="-50.756" gradientTransform="matrix(1, 0, 0, -1, 0, -29.66)" gradientUnits="userSpaceOnUse">
+                                        <linearGradient id="a" x1="28.607" y1="-60.825" x2="11.085" y2="-50.756"
+                                            gradientTransform="matrix(1, 0, 0, -1, 0, -29.66)" gradientUnits="userSpaceOnUse">
                                             <stop offset="0.18" stop-color="#0052cc"></stop>
                                             <stop offset="1" stop-color="#2684ff"></stop>
                                         </linearGradient>
-                                        <linearGradient id="b" x1="621.442" y1="1817.567" x2="603.915" y2="1827.64" gradientTransform="matrix(-1, 0, 0, 1, 624.83, -1816.71)" xlink:href="#a"></linearGradient>
+                                        <linearGradient id="b" x1="621.442" y1="1817.567" x2="603.915" y2="1827.64"
+                                            gradientTransform="matrix(-1, 0, 0, 1, 624.83, -1816.71)" xlink:href="#a">
+                                        </linearGradient>
                                     </defs>
-                                    <title>file_type_confluence</title>
-                                    <path d="M3.015,23.087c-.289.472-.614,1.02-.891,1.456a.892.892,0,0,0,.3,1.212l5.792,3.564a.89.89,0,0,0,1.226-.29l.008-.013c.231-.387.53-.891.855-1.43,2.294-3.787,4.6-3.323,8.763-1.336l5.743,2.731A.892.892,0,0,0,26,28.559l.011-.024L28.766,22.3a.891.891,0,0,0-.445-1.167c-1.212-.57-3.622-1.707-5.792-2.754C14.724,14.586,8.09,14.831,3.015,23.087Z" style="fill:url(#a)"></path>
-                                    <path d="M28.985,8.932c.289-.472.614-1.02.891-1.456a.892.892,0,0,0-.3-1.212L23.785,2.7a.89.89,0,0,0-1.236.241.584.584,0,0,0-.033.053c-.232.387-.53.891-.856,1.43-2.294,3.787-4.6,3.323-8.763,1.336L7.172,3.043a.89.89,0,0,0-1.187.421l-.011.024L3.216,9.726a.891.891,0,0,0,.445,1.167c1.212.57,3.622,1.706,5.792,2.753C17.276,17.433,23.91,17.179,28.985,8.932Z" style="fill:url(#b)"></path>
+                                    <path d="M3.015,23.087c-.289.472-.614,1.02-.891,1.456a.892.892,0,0,0,.3,1.212l5.792,3.564a.89.89,0,0,0,1.226-.29l.008-.013c.231-.387.53-.891.855-1.43,2.294-3.787,4.6-3.323,8.763-1.336l5.743,2.731A.892.892,0,0,0,26,28.559l.011-.024L28.766,22.3a.891.891,0,0,0-.445-1.167c-1.212-.57-3.622-1.707-5.792-2.754C14.724,14.586,8.09,14.831,3.015,23.087Z"
+                                        style="fill:url(#a)"></path>
+                                    <path d="M28.985,8.932c.289-.472.614-1.02.891-1.456a.892.892,0,0,0-.3-1.212L23.785,2.7a.89.89,0,0,0-1.236.241.584.584,0,0,0-.033.053c-.232.387-.53.891-.856,1.43-2.294,3.787-4.6,3.323-8.763,1.336L7.172,3.043a.89.89,0,0,0-1.187.421l-.011.024L3.216,9.726a.891.891,0,0,0,.445,1.167c1.212.57,3.622,1.706,5.792,2.753C17.276,17.433,23.91,17.179,28.985,8.932Z"
+                                        style="fill:url(#b)"></path>
                                 </g>
                             </svg>
+                        </p>
+                        <span class="skill-name">Confluence</span>
+                        <p class="skill-level">Avancé</p>
+                    </div>
+                    <div class="skill">
+                        <p class="skill-icon">
                             <svg width="64px" height="64px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -303,12 +298,11 @@ function Competence(){
                                 </g>
                             </svg>
                         </p>
-                        <div class="progress-container">
-                            <div class="progress-bar"></div>
-                        </div>
+                        <span class="skill-name">Slack</span>
+                        <p class="skill-level">Avancé</p>
                     </div>
                     <div class="skill">
-                        <p>
+                        <p class="skill-icon">
                             <svg width="64px" height="64px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" fill="#000000">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -319,12 +313,11 @@ function Competence(){
                                 </g>
                             </svg>
                         </p>
-                        <div class="progress-container">
-                            <div class="progress-bar"></div>
-                        </div>
+                        <span class="skill-name">Git</span>
+                        <p class="skill-level">Débutant</p>
                     </div>
                     <div class="skill">
-                        <p>
+                        <p class="skill-icon">
                             <svg width="64px" height="64px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -335,12 +328,11 @@ function Competence(){
                                 </g>
                             </svg>
                         </p>
-                        <div class="progress-container">
-                            <div class="progress-bar"></div>
-                        </div>
+                        <span class="skill-name">Microsoft Office</span>
+                        <p class="skill-level">Avancé</p>
                     </div>
                     <div class="skill">
-                        <p>
+                        <p class="skill-icon">
                             <svg width="64px" height="64px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -369,63 +361,12 @@ function Competence(){
                                 </g>
                             </svg>
                         </p>
-                        <div class="progress-container">
-                            <div class="progress-bar"></div>
-                        </div>
-                    </div>
+                        <span class="skill-name">VS Code</span>
+                        <p class="skill-level">Intermédiaire</p>
                 </div>
             </div>`;
 }
 
 Competence();
 
-document.addEventListener("DOMContentLoaded", () => {
-    const skills = [
-        { name: "HTML/CSS", level: "Avancé", percent: 75 },
-        { name: "Javascript", level: "Débutant", percent: 20 },
-        { name: "Markdown", level: "Intermédiaire", percent: 40 },
-        { name: "Bash", level: "Débutant", percent: 10 },
-        { name: 'C', level: "Débutant", percent: 10 },
-        { name: "XML", level: "Débutant", percent: 15 },
-        { name: "JSON", level: "Intermédiaire", percent: 45 },
-        { name: "PHP", level: "Intermédiaire", percent: 30 },
-        { name: "SQL", level: "Intermédiaire", percent: 30 },
-        { name: "MySQL", level: "Intermédiaire", percent: 30 },
-        { name: "MariaDB", level: "Intermédiaire", percent: 30 },
-        { name: "Symfony", level: "Débutant", percent: 15 },
-        { name: "Magento 2", level: "Débutant", percent: 20 },
-        { name: "Scrum", level: "Avancé", percent: 90 },
-        { name: "Jira/Confluence/Slack", level: "Avancé", percent: 90 },
-        { name: "Git", level: "Intermédiaire", percent: 40 },
-        { name: "Microsoft Office/Libre Office", level: "Intermédiaire", percent: 45 },
-        { name: "Visual Studio Code", level: "Intermédiaire", percent: 35 },
-    ];
-
-    const skillElements = document.querySelectorAll(".skill");
-
-    skillElements.forEach((skill, index) => {
-        const progressBar = skill.querySelector(".progress-bar");
-        const level = skills[index].level;
-        const percent = skills[index].percent;
-        progressBar.textContent = level;
-        progressBar.style.width = `${percent}%`;
-        if (percent < 30) {
-            progressBar.style.backgroundColor = "#e74c3c"; // rouge pour débutant
-        } else if (percent < 70) {
-            progressBar.style.backgroundColor = "#f39c12"; // orange pour intermédiaire
-        } else {
-            progressBar.style.backgroundColor = "#2ecc71"; // vert pour avancé
-        }
-
-        skill.addEventListener("mouseenter", () => {
-            progressBar.style.width = `${percent}%`;
-            progressBar.textContent = level;
-        });
-
-        skill.addEventListener("mouseleave", () => {
-            progressBar.style.width = `${percent}%`;
-            progressBar.textContent = level;
-        });
-    });
-});
 
