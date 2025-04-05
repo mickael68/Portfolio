@@ -1,7 +1,9 @@
 function afficherProjets(type) {
     let div = document.getElementById('projets-container');
+    let content = '';
+
     if (type === 'universitaire') {
-        div.innerHTML = `
+        content = `
             <h1 class="title">Mes expériences académiques</h1>
             <div class="carousel-container">
                 <button class="carousel-button prev" onclick="previousPage()">
@@ -124,7 +126,7 @@ function afficherProjets(type) {
                 </button>
             </div>`;
     } else if (type === 'professionnel') {
-        div.innerHTML = `
+        content = `
             <h1 class="title">Mes expériences professionnelles</h1>
             <br>
             <div>
@@ -153,6 +155,9 @@ function afficherProjets(type) {
                 </div>
             </div>`;
     }
+
+    div.innerHTML = content;
+
     const openModalBtns = div.querySelectorAll('.openModalBtn');
     const modals = div.querySelectorAll('.modal');
     const closeModalBtns = div.querySelectorAll('.fermer');
@@ -179,22 +184,24 @@ function afficherProjets(type) {
             modal.style.display = 'none';
         });
     });
-}
 
-afficherProjets('universitaire');
+    currentIndex = 0;
+    updateCarousel();
+}
 
 let currentIndex = 0;
 
-const items = document.querySelectorAll('.carousel-item');
-const totalItems = items.length;
-
 function updateCarousel() {
     const carousel = document.querySelector('.carousel');
-    const offset = -currentIndex * 100;
-    carousel.style.transform = `translateX(${offset}%)`;
+    if (carousel) {
+        const offset = -currentIndex * 100;
+        carousel.style.transform = `translateX(${offset}%)`;
+    }
 }
 
 function previousPage() {
+    const items = document.querySelectorAll('.carousel-item');
+    const totalItems = items.length;
     if (currentIndex > 0) {
         currentIndex--;
     } else {
@@ -204,6 +211,8 @@ function previousPage() {
 }
 
 function nextPage() {
+    const items = document.querySelectorAll('.carousel-item');
+    const totalItems = items.length;
     if (currentIndex < totalItems - 1) {
         currentIndex++;
     } else {
@@ -212,30 +221,4 @@ function nextPage() {
     updateCarousel();
 }
 
-const openModalBtns = document.querySelectorAll('.openModalBtn');
-const modals = document.querySelectorAll('.modal');
-
-openModalBtns.forEach((btn) => {
-    btn.addEventListener('click', () => {
-        const modalId = btn.getAttribute('data-modal');
-        const modal = document.getElementById(modalId);
-        modal.style.display = 'block';
-    });
-});
-
-modals.forEach((modal) => {
-    modal.addEventListener('click', (event) => {
-        if (event.target === modal) {
-            modal.style.display = 'none';
-        }
-    });
-});
-
-const closeModalBtns = document.querySelectorAll('.fermer');
-
-closeModalBtns.forEach((btn) => {
-    btn.addEventListener('click', () => {
-        const modal = btn.closest('.modal');
-        modal.style.display = 'none';
-    });
-});
+afficherProjets('universitaire');
