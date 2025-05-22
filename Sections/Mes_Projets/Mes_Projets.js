@@ -148,9 +148,10 @@ function afficherProjets(type) {
                         </div>
                         <br>
                         <b>Langages :</b> <p>PHP, Javascript, XML, SQL, HTML/CSS.</p>
-                        <b>Frameworks :</b> <p>Magento 2</p>
+                        <b>CMS :</b> <p>Magento 2.</p>
+                        <b>Frameworks :</b> <p>Magento 2, Hyvä</p>
                         <b>Base de données :</b> <p>MySQL.</p>
-                        <b>Logiciels :</b> <p>PHPStorm, Drive, Jira, BitBucket.</p>
+                        <b>Logiciels :</b> <p>PHPStorm, Jira, BitBucket.</p>
                     </div>
                 </div>
             </div>`;
