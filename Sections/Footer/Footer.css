@@ -13,7 +13,7 @@ footer {
 
 .footer-container {
     display: flex;
-    flex-direction: column; /* Toujours en mode mobile */
+    flex-direction: column;
     align-items: center;
     width: 100%;
     text-align: center;
@@ -21,8 +21,8 @@ footer {
 }
 
 .footer-container hr {
-    width: 80%; /* Ajustable selon tes besoins */
-    max-width: 300px; /* Empêche l'extension excessive sur grand écran */
+    width: 80%; 
+    max-width: 300px;
     border: 1px solid white;
     margin: 20px 0;
     display: block;
