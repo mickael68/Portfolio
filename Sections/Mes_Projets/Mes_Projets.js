@@ -31,16 +31,15 @@ function afficherProjets(type) {
                                     </div>
                                 </div>
                                 <br>
-                                <b>Frameworks :</b> <p>Scrum, méthode de projet Agile.</p>
-                                <b>Logiciels :</b> <p>Slack, Confluence, Jira.</p>
+                                <b>Outils :</b> <p>Scrum, Agile, Slack, Confluence, Jira.</p>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="card">
-                            <img src="Image/Logo.png" alt="Fil rouge">
+                            <img src="Image/Logo.png" alt="Fil rouge 1">
                             <div class="card-content">
-                                <h2 class="title-projets">Projet en autonomie « fil rouge » - Septembre à novembre 2024</h2>
+                                <h2 class="title-projets">Projet en autonomie « fil rouge » 1ere année - Septembre à novembre 2024</h2>
                                 <div id="button">
                                     <button class="openModalBtn" data-modal="modal2">Afficher la description</button>
                                 </div>
@@ -56,9 +55,8 @@ function afficherProjets(type) {
                                     </div>
                                 </div>
                                 <br>
-                                <b>Langages :</b> <p>PHP, Javascript, JSON, SQL, HTML/CSS, Bash.</p>
-                                <b>Base de données :</b> <p>MySQL.</p>
-                                <b>Logiciels :</b> <p>Visual Studio Code, Slack, Confluence, Git.</p>
+                                <b>Technologies :</b> <p>PHP, Javascript, JSON, SQL, HTML/CSS, Bash, MySQL, Git.</p>
+                                <b>Outils :</b> <p>Visual Studio Code, Slack, Confluence.</p>
                             </div>
                         </div>
                     </div>
@@ -83,10 +81,8 @@ function afficherProjets(type) {
                                     </div>
                                 </div>
                                 <br>
-                                <b>Langages :</b> <p>PHP, Javascript, JSON, SQL, HTML/CSS.</p>
-                                <b>Frameworks :</b> <p>Scrum, méthode de projet Agile, Symfony.</p>
-                                <b>Base de données :</b> <p>MySQL.</p>
-                                <b>Logiciels :</b> <p>Visual Studio Code, Slack, Confluence, Jira, Git.</p>
+                                <b>Technologies :</b> <p>PHP, JSON, SQL, HTML/CSS/JS, MySQL, Symfony, Git.</p>
+                                <b>Outils :</b> <p>Visual Studio Code, Slack, Confluence, Jira, Scrum, Agile.</p>
                             </div>
                         </div>
                     </div>
@@ -111,10 +107,33 @@ function afficherProjets(type) {
                                     </div>
                                 </div>
                                 <br>
-                                <b>Langages :</b> <p>PHP, Javascript, JSON, SQL, HTML/CSS.</p>
-                                <b>Frameworks :</b> <p>Scrum, méthode de projet Agile.</p>
-                                <b>Base de données :</b> <p>MySQL.</p>
-                                <b>Logiciels :</b> <p>Visual Studio Code, Slack, Confluence, Jira, Git.</p>
+                                <b>Technologies  :</b> <p>PHP, JSON, SQL, HTML/CSS/JS, MySQL, Git.</p>
+                                <b>Outils :</b> <p>Visual Studio Code, Slack, Confluence, Jira, Scrum, Agile.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <img src="Image/bataille navale.webp" alt="Fil rouge 2">
+                            <div class="card-content">
+                                <h2 class="title-projets">Projet en autonomie « fil rouge » 2ème année - Septembre à novembre 2025</h2>
+                                <div id="button">
+                                    <button class="openModalBtn" data-modal="modal5">Afficher la description</button>
+                                </div>
+                                <div id="modal5" class="modal">
+                                    <div class="modal-content">
+                                        <span class="fermer">&times;</span>
+                                        <a class="description">
+                                            Développement d’un site web dynamique en autonomie en début d’année à l’UHA 4.0.
+                                            J’ai conçu une application web complète en Java avec un back-end développé avec Spring Boot et Maven, connecté à une base de données H2.
+                                            J’ai utilisé React (JavaScript) pour le front-end et j’ai utilisé JUnit pour écrire des tests unitaires.
+                                            Ce projet m’a permis de structurer une application web, d’adapter les outils aux besoins, de travailler en autonomie et de résoudre des problèmes techniques concrets.
+                                        </a>
+                                    </div>
+                                </div>
+                                <br>
+                                <b>Technologies :</b> <p>Java, SpringBoot, Maven, H2, JUnit, HTML/CSS/JS, React, Git.</p>
+                                <b>Outils :</b> <p>IntelliJ , Slack, Confluence.</p>
                             </div>
                         </div>
                     </div>
@@ -147,11 +166,8 @@ function afficherProjets(type) {
                             </div>
                         </div>
                         <br>
-                        <b>Langages :</b> <p>PHP, Javascript, XML, SQL, HTML/CSS.</p>
-                        <b>CMS :</b> <p>Magento 2.</p>
-                        <b>Frameworks :</b> <p>Magento 2, Hyvä</p>
-                        <b>Base de données :</b> <p>MySQL.</p>
-                        <b>Logiciels :</b> <p>PHPStorm, Jira, BitBucket.</p>
+                        <b>Technologies :</b> <p>PHP, XML, SQL, HTML/CSS/JS, Magento 2, Hyvä, MySQL, Git.</p>
+                        <b>Outils :</b> <p>PHPStorm, Jira, Bitbucket.</p>
                     </div>
                 </div>
             </div>`;
