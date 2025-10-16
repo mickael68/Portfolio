@@ -52,7 +52,7 @@ function A_propos(type) {
         div.innerHTML = `
             <div class="card-A_propos">
                 <b>Veille Informatique :</b>
-                <p>Hugo Décrypte, Balade Mentale, Hugo Lisoir...</p>
+                <p>Balade Mentale, Hugo Lisoir...</p>
                 <b>Activités extérieures :</b>
                 <p>Vélo</p>
                 <b>Jeux de stratégie et réflexion :</b>

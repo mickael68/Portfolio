@@ -4,7 +4,7 @@ function afficherProjets(type) {
 
     if (type === 'universitaire') {
         content = `
-            <h1 class="title">Mes expériences académiques</h1>
+            <h1 class="title">Mes projets en développement</h1>
             <div class="carousel-container">
                 <button class="carousel-button prev" onclick="previousPage()">
                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white">
@@ -31,7 +31,7 @@ function afficherProjets(type) {
                                     </div>
                                 </div>
                                 <br>
-                                <b>Outils :</b> <p>Scrum, Agile, Slack, Confluence, Jira.</p>
+                                <b>Outils :</b> <p>Scrum, Slack, Confluence, Jira.</p>
                             </div>
                         </div>
                     </div>
@@ -55,8 +55,8 @@ function afficherProjets(type) {
                                     </div>
                                 </div>
                                 <br>
-                                <b>Technologies :</b> <p>PHP, Javascript, JSON, SQL, HTML/CSS, Bash, MySQL, Git.</p>
-                                <b>Outils :</b> <p>Visual Studio Code, Slack, Confluence.</p>
+                                <b>Technologies :</b> <p>PHP, Javascript (HTML/CSS), Bash, MySQL, Git.</p>
+                                <b>Outils :</b> <p>Slack, Confluence.</p>
                             </div>
                         </div>
                     </div>
@@ -81,8 +81,8 @@ function afficherProjets(type) {
                                     </div>
                                 </div>
                                 <br>
-                                <b>Technologies :</b> <p>PHP, JSON, SQL, HTML/CSS/JS, MySQL, Symfony, Git.</p>
-                                <b>Outils :</b> <p>Visual Studio Code, Slack, Confluence, Jira, Scrum, Agile.</p>
+                                <b>Technologies :</b> <p>PHP (Symfony), Javascript (HTML, CSS), MySQL.</p>
+                                <b>Outils :</b> <p>Slack, Confluence, Jira, Scrum, GitLab/Git.</p>
                             </div>
                         </div>
                     </div>
@@ -107,8 +107,8 @@ function afficherProjets(type) {
                                     </div>
                                 </div>
                                 <br>
-                                <b>Technologies  :</b> <p>PHP, JSON, SQL, HTML/CSS/JS, MySQL, Git.</p>
-                                <b>Outils :</b> <p>Visual Studio Code, Slack, Confluence, Jira, Scrum, Agile.</p>
+                                <b>Technologies  :</b> <p>PHP, Javascript (HTML, CSS), MySQL.</p>
+                                <b>Outils :</b> <p>Slack, Confluence, Jira, Scrum, GitLab/Git.</p>
                             </div>
                         </div>
                     </div>
@@ -132,8 +132,8 @@ function afficherProjets(type) {
                                     </div>
                                 </div>
                                 <br>
-                                <b>Technologies :</b> <p>Java, SpringBoot, Maven, H2, JUnit, HTML/CSS/JS, React, Git.</p>
-                                <b>Outils :</b> <p>IntelliJ , Slack, Confluence.</p>
+                                <b>Technologies :</b> <p>Java (Spring Boot), Javascript (React), Docker, SQL.</p>
+                                <b>Outils :</b> <p>Slack, Confluence, GitLab/Git.</p>
                             </div>
                         </div>
                     </div>
@@ -166,8 +166,8 @@ function afficherProjets(type) {
                             </div>
                         </div>
                         <br>
-                        <b>Technologies :</b> <p>PHP, XML, SQL, HTML/CSS/JS, Magento 2, Hyvä, MySQL, Git.</p>
-                        <b>Outils :</b> <p>PHPStorm, Jira, Bitbucket.</p>
+                        <b>Technologies :</b> <p>PHP, XML, Javascript (HTML, TailwindCSS), Magento 2 (Hyvä), MySQL, Git.</p>
+                        <b>Outils :</b> <p>Jira, Bitbucket/Git.</p>
                     </div>
                 </div>
             </div>`;
